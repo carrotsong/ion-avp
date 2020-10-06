@@ -3,8 +3,8 @@ package elements
 import (
 	"errors"
 
-	avp "github.com/pion/ion-avp/pkg"
-	"github.com/pion/ion-avp/pkg/log"
+	avp "github.com/carrotsong/ion-avp/pkg"
+	"github.com/carrotsong/ion-avp/pkg/log"
 )
 
 // Types for samples

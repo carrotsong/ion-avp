@@ -1,15 +1,15 @@
-module github.com/pion/ion-avp
+module github.com/carrotsong/ion-avp
 
 go 1.13
 
 require (
 	github.com/at-wat/ebml-go v0.11.0
 	github.com/golang/protobuf v1.4.2
-	github.com/pion/ion-sfu v1.0.21
-	github.com/pion/rtcp v1.2.4
-	github.com/pion/rtp v1.6.1
-	github.com/pion/transport v0.10.1
-	github.com/pion/webrtc/v3 v3.0.0-beta.6
+	github.com/carrotsong/ion-sfu v1.0.21
+	github.com/carrotsong/rtcp v1.2.4
+	github.com/carrotsong/rtp v1.6.1
+	github.com/carrotsong/transport v0.10.1
+	github.com/carrotsong/webrtc/v3 v3.0.0-beta.6
 	github.com/rs/zerolog v1.20.0
 	github.com/spf13/viper v1.7.1
 	github.com/stretchr/testify v1.6.1

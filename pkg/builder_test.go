@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/transport/test"
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/pkg/media"
+	"github.com/carrotsong/transport/test"
+	"github.com/carrotsong/webrtc/v3"
+	"github.com/carrotsong/webrtc/v3/pkg/media"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/exp/rand"
 )

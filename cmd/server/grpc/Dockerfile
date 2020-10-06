@@ -2,15 +2,15 @@ FROM golang:1.14.9-stretch
 
 ENV GO111MODULE=on
 
-WORKDIR $GOPATH/src/github.com/pion/ion-avp
+WORKDIR $GOPATH/src/github.com/carrotsong/ion-avp
 
 COPY go.mod go.sum ./
-RUN cd $GOPATH/src/github.com/pion/ion-avp && go mod download
+RUN cd $GOPATH/src/github.com/carrotsong/ion-avp && go mod download
 
-COPY pkg/ $GOPATH/src/github.com/pion/ion-avp/pkg
-COPY cmd/ $GOPATH/src/github.com/pion/ion-avp/cmd
+COPY pkg/ $GOPATH/src/github.com/carrotsong/ion-avp/pkg
+COPY cmd/ $GOPATH/src/github.com/carrotsong/ion-avp/cmd
 
-WORKDIR $GOPATH/src/github.com/pion/ion-avp/cmd/server/grpc
+WORKDIR $GOPATH/src/github.com/carrotsong/ion-avp/cmd/server/grpc
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /avp .
 
 FROM alpine:3.12.0

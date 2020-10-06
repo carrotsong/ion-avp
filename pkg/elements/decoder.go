@@ -5,8 +5,8 @@ package elements
 import (
 	"time"
 
-	avp "github.com/pion/ion-avp/pkg"
-	"github.com/pion/ion-avp/pkg/log"
+	avp "github.com/carrotsong/ion-avp/pkg"
+	"github.com/carrotsong/ion-avp/pkg/log"
 	"github.com/xlab/libvpx-go/vpx"
 )
 
